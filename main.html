@@ -4,15 +4,27 @@
 <style>
 body {
 	text-align: center;
-	background: url("http://imgur.com/gEGRFVj");
-	background-size: cover;
+	background: url("photo-4.jpg");
+	background-size: 180%;
 	background-position: center;
 	color: white;
 	font-family: helvetica;
+	padding-top: 30px;
+}
+
+.circular img {
+	height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+    border: 2px solid #333333;
+    border-radius: 150px
 }
 
 p {
 	font-size: 22px;
+	font-weight: bold;
+	color: #333333;
 }
 
 input {
@@ -22,14 +34,14 @@ input {
 }
 
 input[type="submit"] {
-	background: white;
-	color: black;
+	background: #333333;
+	color: white;
 }
 </style>
 </head>
 
 <body>
-<img src="http://imgur.com/5BPpD4x">
+<div class="circular"><img src="headshot-2016.jpg"></div>
 <p>Front End Web Development | Product Design | Change Management</p>
 <input type="email" placeholder="your email">
 <input type="submit">
